@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine's Day 💕</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="confetti-container" id="confettiContainer"></div>
+    <audio id="birthdayAudio" loop>
+        <source src="assets/birthday.m4a" type="audio/mp4">
+    </audio>
+    <audio id="birthdayAudio2" loop>
+        <source src="assets/birthday-audio-2.m4a" type="audio/mp4">
+    </audio>
+    <div class="book-container">
+        <div class="card current-page" id="page1">
+            <img src="assets/marla_pub.jpg" alt="Marla Celebrate">
+            <h1>To My Wonderful Baby...</h1>
+            <button class="next-btn" id="nextBtn" aria-label="Next page">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9 6L15 12L9 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+        </div>
+        <div class="card second-page" id="page2">
+            <img src="assets/ekko.png" alt="Ekko" class="animated-image">
+            <h1>Happy Birthday to You! ❤️</h1>
+            <button class="next-btn" id="nextBtn2" aria-label="Next page">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9 6L15 12L9 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+        </div>
+        <div class="card third-page" id="page3">
+            <img src="assets/marla-4.jpg" alt="Marla">
+            <p>Thank you for the great memories we've shared these past 4 years - all the smiles, laughter, connections, adventures, and joy.</p>
+            <button class="next-btn" id="nextBtn3" aria-label="Next page">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9 6L15 12L9 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+        </div>
+        <div class="card fourth-page" id="page4">
+            <img src="assets/marla-5.jpeg" alt="Marla">
+            <p>You're catching up to me in age hehe I hope you're ready to feel it in your knees 😆 It's been 4 of your birthdays we've spent together and I am so proud of the woman you have become.</p>
+            <button class="next-btn" id="nextBtn4" aria-label="Next page">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9 6L15 12L9 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+        </div>
+        <div class="card fifth-page" id="page5">
+            <img src="assets/marla-6.jpeg" alt="Marla">
+            <p>Even though you're getting older, it's always important to remind yourself to never forget who you are and never forget the woman you want to continue growing to be.</p>
+            <button class="next-btn" id="nextBtn5" aria-label="Next page">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9 6L15 12L9 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+        </div>
+        <div class="card sixth-page" id="page6">
+            <img src="assets/group-photo.jpeg" alt="Group Photo">
+            <p>Life moves fast as we get older so it's also really important to stay in touch with your loved ones too whenever you can. We are all supporting you no matter where you go and what you accomplish!</p>
+            <button class="next-btn" id="nextBtn6" aria-label="Next page">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9 6L15 12L9 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+        </div>
+        <div class="card seventh-page" id="page7">
+            <img src="assets/marla-renzo-2.jpg" alt="Marla and Renzo">
+            <p>Whatever happens in life, I will always be there supporting you every step of the way. So don't be afraid to fall because I'll be right there to pick you back up.</p>
+            <button class="next-btn" id="nextBtn7" aria-label="Next page">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9 6L15 12L9 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+        </div>
+        <div class="card eighth-page" id="page8">
+            <img src="assets/marla-renzo-1.jpeg" alt="Marla and Renzo">
+            <p>I love you so much baby, happy birthday and have a wonderful 27th year of living!</p>
+            <p>- Love Renzo ❤️</p>
+            <button class="next-btn" id="nextBtn8" aria-label="Next page">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9 6L15 12L9 18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+        </div>
+        <div class="card ninth-page" id="page9">
+            <img src="assets/marla-doggies.jpeg" alt="Doggies">
+            <p>P.S. You have two other birthday greeters who couldn't wait to greet you as well!</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
